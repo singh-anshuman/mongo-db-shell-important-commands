@@ -12,3 +12,6 @@
 
 - db.<collection_name>.update(<query>,<object>) // e.g. db.employees.update({firstName: "Anshuman"},{firstName: "Aditya"}); Updates the specified document in the collection with the document passed as second argument to the function 
 
+- show db // Displays the currently used database
+
+- use <database_name> e.g. use test-db // switches database. creates a new database if it does not exist.
